@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const Flag = () => {
   return (
-    <Link to="/details" className='flex flex-col w-[320px] bg-white drop-shadow-sm rounded-lg overflow-hidden dark:bg-[#2B3844] dark:text-white cursor-pointer'>
+    <Link to="/details" className='flex flex-col w-[320px] bg-white drop-shadow-sm rounded-lg overflow-hidden dark:bg-[#2B3844] dark:text-white cursor-pointer lg:max-w-[264px]'>
         <div>
             <img src={data[0].flags.png} alt="Flag" />
         </div>

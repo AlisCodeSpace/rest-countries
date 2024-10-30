@@ -7,8 +7,10 @@ import Flags from '../components/Flags/Flags'
 const Main = () => {
   return (
     <div>
-      <Search />
-      <Filter />
+      <div className='mx-14 flex flex-col lg:flex-row lg:justify-between'>
+        <Search />
+        <Filter />
+      </div>
       <Flags />
     </div>
   )
