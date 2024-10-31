@@ -58,7 +58,7 @@ export const CountriesProvider = ({ children }) => {
   }
 
   const getCountryInfo = () => {
-    return randomCountries.find(country => country.cca3 === selectedCountry)
+    return countries.find(country => country.cca3 === selectedCountry)
   }
 
   return (
