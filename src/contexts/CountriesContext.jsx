@@ -51,7 +51,7 @@ export const CountriesProvider = ({ children }) => {
   const handleSelectCountry = (id) => {
     setSelectedCountry(id)
 
-    const countryData = randomCountries.find(country => country.cca3 === id);
+    const countryData = countries.find(country => country.cca3 === id);
     if (countryData) {
       localStorage.setItem('selectedCountry', JSON.stringify(countryData));
     }
